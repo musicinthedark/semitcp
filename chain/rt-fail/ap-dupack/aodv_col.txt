@@ -1,0 +1,59 @@
+Fri Aug 20 21:17:30 CST 2010
+SIMULATION DURATION: 300.0S, AODV+TCP
+
+--- Hop Node Number:2 ---
+  aodv collision:  0
+
+--- Hop Node Number:3 ---
+  aodv collision:  0
+
+--- Hop Node Number:4 ---
+  aodv collision:  147
+
+--- Hop Node Number:5 ---
+  aodv collision:  4
+
+--- Hop Node Number:6 ---
+  aodv collision:  1
+
+--- Hop Node Number:7 ---
+  aodv collision:  3
+
+--- Hop Node Number:8 ---
+  aodv collision:  10
+
+--- Hop Node Number:9 ---
+  aodv collision:  5
+
+--- Hop Node Number:10 ---
+  aodv collision:  4
+
+--- Hop Node Number:11 ---
+  aodv collision:  4
+
+--- Hop Node Number:12 ---
+  aodv collision:  12
+
+--- Hop Node Number:13 ---
+  aodv collision:  9
+
+--- Hop Node Number:14 ---
+  aodv collision:  10
+
+--- Hop Node Number:15 ---
+  aodv collision:  6
+
+--- Hop Node Number:16 ---
+  aodv collision:  10
+
+--- Hop Node Number:17 ---
+  aodv collision:  24
+
+--- Hop Node Number:18 ---
+  aodv collision:  22
+
+--- Hop Node Number:19 ---
+  aodv collision:  8
+
+--- Hop Node Number:20 ---
+  aodv collision:  12

@@ -1,0 +1,241 @@
+num_nodes is set 11
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+1.116279323 interval:0.100000000
+1.207104656 interval:0.100000000
+1.275191323 interval:0.100000000
+1.363493323 interval:0.100000000
+1.423835323 interval:0.100000000
+1.487423989 interval:0.100000000
+1.555217989 interval:0.100000000
+1.624213989 interval:0.100000000
+1.697382656 interval:0.100000000
+1.765139989 interval:0.100000000
+1.850647989 interval:0.100000000
+1.943834656 interval:0.100000000
+2.012249323 interval:0.100000000
+2.082601323 interval:0.100000000
+2.156893989 interval:0.100000000
+^^^^^ 2.814137989 SemiTcpAgent::timeout sn:48 highest_ack:29
+3.077223323 interval:0.100000000
+3.175107323 interval:0.100000000
+3.256481323 interval:0.100000000
+3.333876656 interval:0.100000000
+3.444471323 interval:0.100000000
+3.504163989 interval:0.100000000
+3.575027323 interval:0.100000000
+3.654271323 interval:0.100000000
+3.726134656 interval:0.100000000
+3.819315323 interval:0.100000000
+3.887937989 interval:0.100000000
+3.964591989 interval:0.100000000
+4.043231989 interval:0.100000000
+4.107611989 interval:0.100000000
+4.198088656 interval:0.100000000
+4.270003989 interval:0.100000000
+4.331477323 interval:0.100000000
+4.440049323 interval:0.100000000
+4.501484656 interval:0.100000000
+4.570037323 interval:0.100000000
+4.661887323 interval:0.100000000
+4.745491323 interval:0.100000000
+4.823470656 interval:0.100000000
+4.906813323 interval:0.100000000
+4.996434656 interval:0.100000000
+5.074760656 interval:0.100000000
+5.142462656 interval:0.100000000
+5.211468656 interval:0.100000000
+5.301612656 interval:0.100000000
+5.368406656 interval:0.100000000
+5.452957989 interval:0.100000000
+5.561010656 interval:0.100000000
+5.628767656 interval:0.100000000
+^^^^^ 6.237154989 SemiTcpAgent::timeout sn:133 highest_ack:113
+^^^^^ 6.677154989 SemiTcpAgent::timeout sn:143 highest_ack:113
+^^^^^ 7.181157989 SemiTcpAgent::timeout sn:152 highest_ack:119
+^^^^^ 7.621157989 SemiTcpAgent::timeout sn:160 highest_ack:119
+^^^^^ 8.213097323 SemiTcpAgent::timeout sn:170 highest_ack:122
+^^^^^ 8.653097323 SemiTcpAgent::timeout sn:180 highest_ack:122
+^^^^^ 9.160551656 SemiTcpAgent::timeout sn:189 highest_ack:137
+^^^^^ 9.600551656 SemiTcpAgent::timeout sn:197 highest_ack:137
+^^^^^ 10.072899656 SemiTcpAgent::timeout sn:206 highest_ack:163
+^^^^^ 10.512899656 SemiTcpAgent::timeout sn:215 highest_ack:163
+^^^^^ 10.999330323 SemiTcpAgent::timeout sn:226 highest_ack:174
+^^^^^ 11.877154656 SemiTcpAgent::timeout sn:245 highest_ack:175
+^^^^^ 12.317154656 SemiTcpAgent::timeout sn:256 highest_ack:175
+^^^^^ 12.860720989 SemiTcpAgent::timeout sn:266 highest_ack:183
+^^^^^ 13.300720989 SemiTcpAgent::timeout sn:276 highest_ack:183
+^^^^^ 13.740720989 SemiTcpAgent::timeout sn:284 highest_ack:183
+^^^^^ 14.316176656 SemiTcpAgent::timeout sn:296 highest_ack:193
+^^^^^ 14.756176656 SemiTcpAgent::timeout sn:303 highest_ack:193
+^^^^^ 15.357682656 SemiTcpAgent::timeout sn:314 highest_ack:210
+^^^^^ 15.797682656 SemiTcpAgent::timeout sn:322 highest_ack:210
+^^^^^ 16.357697323 SemiTcpAgent::timeout sn:332 highest_ack:213
+^^^^^ 16.797697323 SemiTcpAgent::timeout sn:341 highest_ack:213
+^^^^^ 17.237697323 SemiTcpAgent::timeout sn:350 highest_ack:213
+^^^^^ 17.734275656 SemiTcpAgent::timeout sn:358 highest_ack:226
+^^^^^ 18.174275656 SemiTcpAgent::timeout sn:366 highest_ack:226
+^^^^^ 18.764674989 SemiTcpAgent::timeout sn:380 highest_ack:232
+^^^^^ 19.204674989 SemiTcpAgent::timeout sn:388 highest_ack:232
+^^^^^ 19.662834989 SemiTcpAgent::timeout sn:397 highest_ack:236
+^^^^^ 20.102834989 SemiTcpAgent::timeout sn:405 highest_ack:236
+^^^^^ 20.626219656 SemiTcpAgent::timeout sn:415 highest_ack:237
+^^^^^ 21.066219656 SemiTcpAgent::timeout sn:424 highest_ack:237
+^^^^^ 21.700456989 SemiTcpAgent::timeout sn:435 highest_ack:248
+^^^^^ 22.140456989 SemiTcpAgent::timeout sn:442 highest_ack:248
+^^^^^ 22.794036989 SemiTcpAgent::timeout sn:454 highest_ack:262
+^^^^^ 23.234036989 SemiTcpAgent::timeout sn:461 highest_ack:262
+^^^^^ 23.862930989 SemiTcpAgent::timeout sn:473 highest_ack:266
+^^^^^ 24.302930989 SemiTcpAgent::timeout sn:480 highest_ack:266
+^^^^^ 24.881414989 SemiTcpAgent::timeout sn:491 highest_ack:267
+^^^^^ 25.321414989 SemiTcpAgent::timeout sn:499 highest_ack:267
+^^^^^ 25.899202989 SemiTcpAgent::timeout sn:510 highest_ack:276
+^^^^^ 26.339202989 SemiTcpAgent::timeout sn:518 highest_ack:276
+^^^^^ 26.830560989 SemiTcpAgent::timeout sn:527 highest_ack:358
+^^^^^ 27.270560989 SemiTcpAgent::timeout sn:536 highest_ack:358
+^^^^^ 27.854291656 SemiTcpAgent::timeout sn:546 highest_ack:364
+^^^^^ 28.294291656 SemiTcpAgent::timeout sn:554 highest_ack:364
+^^^^^ 28.826487656 SemiTcpAgent::timeout sn:564 highest_ack:366
+^^^^^ 29.266487656 SemiTcpAgent::timeout sn:574 highest_ack:366
+^^^^^ 29.784998989 SemiTcpAgent::timeout sn:584 highest_ack:373
+^^^^^ 30.224998989 SemiTcpAgent::timeout sn:592 highest_ack:373
+^^^^^ 30.728906323 SemiTcpAgent::timeout sn:602 highest_ack:384
+^^^^^ 31.168906323 SemiTcpAgent::timeout sn:612 highest_ack:384
+^^^^^ 31.728314989 SemiTcpAgent::timeout sn:621 highest_ack:413
+^^^^^ 32.168314989 SemiTcpAgent::timeout sn:630 highest_ack:413
+^^^^^ 32.663768989 SemiTcpAgent::timeout sn:638 highest_ack:487
+^^^^^ 33.103768989 SemiTcpAgent::timeout sn:647 highest_ack:487
+^^^^^ 33.580804656 SemiTcpAgent::timeout sn:656 highest_ack:493
+^^^^^ 34.020804656 SemiTcpAgent::timeout sn:663 highest_ack:493
+^^^^^ 34.581064656 SemiTcpAgent::timeout sn:673 highest_ack:499
+^^^^^ 35.021064656 SemiTcpAgent::timeout sn:681 highest_ack:499
+^^^^^ 35.589493323 SemiTcpAgent::timeout sn:692 highest_ack:508
+^^^^^ 36.029493323 SemiTcpAgent::timeout sn:700 highest_ack:508
+^^^^^ 36.550461323 SemiTcpAgent::timeout sn:710 highest_ack:526
+^^^^^ 37.417864656 SemiTcpAgent::timeout sn:727 highest_ack:555
+^^^^^ 37.857864656 SemiTcpAgent::timeout sn:737 highest_ack:555
+^^^^^ 38.391551323 SemiTcpAgent::timeout sn:747 highest_ack:563
+^^^^^ 38.831551323 SemiTcpAgent::timeout sn:755 highest_ack:563
+^^^^^ 39.451659989 SemiTcpAgent::timeout sn:766 highest_ack:569
+^^^^^ 39.891659989 SemiTcpAgent::timeout sn:774 highest_ack:569
+^^^^^ 40.476905989 SemiTcpAgent::timeout sn:784 highest_ack:583
+^^^^^ 40.916905989 SemiTcpAgent::timeout sn:794 highest_ack:583
+^^^^^ 41.487215323 SemiTcpAgent::timeout sn:804 highest_ack:602
+^^^^^ 41.927215323 SemiTcpAgent::timeout sn:813 highest_ack:602
+^^^^^ 42.414179989 SemiTcpAgent::timeout sn:823 highest_ack:605
+^^^^^ 42.854179989 SemiTcpAgent::timeout sn:831 highest_ack:605
+^^^^^ 43.387159323 SemiTcpAgent::timeout sn:840 highest_ack:642
+^^^^^ 43.827159323 SemiTcpAgent::timeout sn:847 highest_ack:642
+^^^^^ 44.413336656 SemiTcpAgent::timeout sn:859 highest_ack:675
+^^^^^ 44.853336656 SemiTcpAgent::timeout sn:866 highest_ack:675
+^^^^^ 45.485824656 SemiTcpAgent::timeout sn:879 highest_ack:684
+^^^^^ 45.925824656 SemiTcpAgent::timeout sn:887 highest_ack:684
+^^^^^ 46.417259323 SemiTcpAgent::timeout sn:897 highest_ack:697
+^^^^^ 46.857259323 SemiTcpAgent::timeout sn:904 highest_ack:697
+^^^^^ 47.540260323 SemiTcpAgent::timeout sn:915 highest_ack:702
+^^^^^ 47.980260323 SemiTcpAgent::timeout sn:923 highest_ack:702
+^^^^^ 48.551742989 SemiTcpAgent::timeout sn:932 highest_ack:731
+^^^^^ 48.991742989 SemiTcpAgent::timeout sn:939 highest_ack:731
+^^^^^ 49.611301656 SemiTcpAgent::timeout sn:950 highest_ack:752
+^^^^^ 50.051301656 SemiTcpAgent::timeout sn:958 highest_ack:752
+^^^^^ 50.561286323 SemiTcpAgent::timeout sn:968 highest_ack:783
+^^^^^ 51.001286323 SemiTcpAgent::timeout sn:976 highest_ack:783
+^^^^^ 51.634118656 SemiTcpAgent::timeout sn:987 highest_ack:796
+^^^^^ 52.074118656 SemiTcpAgent::timeout sn:995 highest_ack:796
+^^^^^ 52.608265323 SemiTcpAgent::timeout sn:1005 highest_ack:797
+^^^^^ 53.480495323 SemiTcpAgent::timeout sn:1024 highest_ack:819
+^^^^^ 53.920495323 SemiTcpAgent::timeout sn:1032 highest_ack:819
+^^^^^ 54.469048323 SemiTcpAgent::timeout sn:1042 highest_ack:825
+^^^^^ 54.909048323 SemiTcpAgent::timeout sn:1049 highest_ack:825
+^^^^^ 55.452845656 SemiTcpAgent::timeout sn:1060 highest_ack:863
+^^^^^ 55.892845656 SemiTcpAgent::timeout sn:1069 highest_ack:863
+^^^^^ 56.419594989 SemiTcpAgent::timeout sn:1078 highest_ack:892
+^^^^^ 56.859594989 SemiTcpAgent::timeout sn:1085 highest_ack:892
+^^^^^ 57.505429656 SemiTcpAgent::timeout sn:1096 highest_ack:961
+^^^^^ 57.945429656 SemiTcpAgent::timeout sn:1105 highest_ack:961
+^^^^^ 58.385429656 SemiTcpAgent::timeout sn:1112 highest_ack:961
+^^^^^ 58.946280323 SemiTcpAgent::timeout sn:1122 highest_ack:979
+^^^^^ 59.386280323 SemiTcpAgent::timeout sn:1130 highest_ack:979
+^^^^^ 59.843580989 SemiTcpAgent::timeout sn:1141 highest_ack:999
+^^^^^ 60.283580989 SemiTcpAgent::timeout sn:1149 highest_ack:999
+^^^^^ 60.750310323 SemiTcpAgent::timeout sn:1158 highest_ack:1003
+^^^^^ 61.190310323 SemiTcpAgent::timeout sn:1166 highest_ack:1003
+^^^^^ 61.699404989 SemiTcpAgent::timeout sn:1175 highest_ack:1013
+^^^^^ 62.139404989 SemiTcpAgent::timeout sn:1182 highest_ack:1013
+^^^^^ 62.679393656 SemiTcpAgent::timeout sn:1192 highest_ack:1032
+^^^^^ 63.119393656 SemiTcpAgent::timeout sn:1201 highest_ack:1032
+^^^^^ 63.597147656 SemiTcpAgent::timeout sn:1209 highest_ack:1058
+^^^^^ 64.037147656 SemiTcpAgent::timeout sn:1217 highest_ack:1058
+^^^^^ 64.502872989 SemiTcpAgent::timeout sn:1225 highest_ack:1068
+^^^^^ 64.942872989 SemiTcpAgent::timeout sn:1233 highest_ack:1068
+^^^^^ 65.428960989 SemiTcpAgent::timeout sn:1244 highest_ack:1107
+^^^^^ 65.868960989 SemiTcpAgent::timeout sn:1252 highest_ack:1107
+^^^^^ 66.391687656 SemiTcpAgent::timeout sn:1263 highest_ack:1132
+^^^^^ 66.831687656 SemiTcpAgent::timeout sn:1273 highest_ack:1132
+^^^^^ 67.356774989 SemiTcpAgent::timeout sn:1281 highest_ack:1137
+^^^^^ 67.796774989 SemiTcpAgent::timeout sn:1291 highest_ack:1137
+^^^^^ 68.258018989 SemiTcpAgent::timeout sn:1302 highest_ack:1148
+^^^^^ 68.698018989 SemiTcpAgent::timeout sn:1309 highest_ack:1148
+^^^^^ 69.230523656 SemiTcpAgent::timeout sn:1320 highest_ack:1191
+^^^^^ 70.043184323 SemiTcpAgent::timeout sn:1337 highest_ack:1237
+^^^^^ 70.483184323 SemiTcpAgent::timeout sn:1347 highest_ack:1237
+^^^^^ 71.012683323 SemiTcpAgent::timeout sn:1356 highest_ack:1248
+^^^^^ 71.452683323 SemiTcpAgent::timeout sn:1365 highest_ack:1248
+^^^^^ 71.950599323 SemiTcpAgent::timeout sn:1374 highest_ack:1258
+^^^^^ 72.390599323 SemiTcpAgent::timeout sn:1384 highest_ack:1258
+^^^^^ 72.830599323 SemiTcpAgent::timeout sn:1391 highest_ack:1258
+^^^^^ 73.349262656 SemiTcpAgent::timeout sn:1401 highest_ack:1262
+^^^^^ 73.789262656 SemiTcpAgent::timeout sn:1410 highest_ack:1262
+^^^^^ 74.351144323 SemiTcpAgent::timeout sn:1420 highest_ack:1263
+^^^^^ 74.791144323 SemiTcpAgent::timeout sn:1428 highest_ack:1263
+^^^^^ 75.381431656 SemiTcpAgent::timeout sn:1440 highest_ack:1283
+^^^^^ 75.821431656 SemiTcpAgent::timeout sn:1447 highest_ack:1283
+^^^^^ 76.358566989 SemiTcpAgent::timeout sn:1458 highest_ack:1293
+^^^^^ 76.798566989 SemiTcpAgent::timeout sn:1466 highest_ack:1293
+^^^^^ 77.247348989 SemiTcpAgent::timeout sn:1474 highest_ack:1295
+^^^^^ 77.687348989 SemiTcpAgent::timeout sn:1484 highest_ack:1295
+^^^^^ 78.142818989 SemiTcpAgent::timeout sn:1494 highest_ack:1308
+^^^^^ 78.582818989 SemiTcpAgent::timeout sn:1502 highest_ack:1308
+^^^^^ 79.164122323 SemiTcpAgent::timeout sn:1515 highest_ack:1318
+^^^^^ 79.604122323 SemiTcpAgent::timeout sn:1523 highest_ack:1318
+^^^^^ 80.051090323 SemiTcpAgent::timeout sn:1533 highest_ack:1336
+^^^^^ 80.491090323 SemiTcpAgent::timeout sn:1540 highest_ack:1336
+^^^^^ 80.998026989 SemiTcpAgent::timeout sn:1550 highest_ack:1338
+^^^^^ 81.438026989 SemiTcpAgent::timeout sn:1557 highest_ack:1338
+^^^^^ 81.947853656 SemiTcpAgent::timeout sn:1567 highest_ack:1362
+^^^^^ 82.387853656 SemiTcpAgent::timeout sn:1575 highest_ack:1362
+^^^^^ 82.883954989 SemiTcpAgent::timeout sn:1584 highest_ack:1377
+^^^^^ 83.323954989 SemiTcpAgent::timeout sn:1591 highest_ack:1377
+^^^^^ 83.919478323 SemiTcpAgent::timeout sn:1603 highest_ack:1381
+^^^^^ 84.359478323 SemiTcpAgent::timeout sn:1610 highest_ack:1381
+^^^^^ 84.916877656 SemiTcpAgent::timeout sn:1620 highest_ack:1401
+^^^^^ 85.356877656 SemiTcpAgent::timeout sn:1627 highest_ack:1401
+^^^^^ 85.917298989 SemiTcpAgent::timeout sn:1638 highest_ack:1423
+^^^^^ 86.357298989 SemiTcpAgent::timeout sn:1645 highest_ack:1423
+^^^^^ 86.931110989 SemiTcpAgent::timeout sn:1655 highest_ack:1431
+^^^^^ 87.371110989 SemiTcpAgent::timeout sn:1663 highest_ack:1431
+^^^^^ 87.921525656 SemiTcpAgent::timeout sn:1673 highest_ack:1475
+^^^^^ 88.361525656 SemiTcpAgent::timeout sn:1681 highest_ack:1475
+^^^^^ 88.934262989 SemiTcpAgent::timeout sn:1691 highest_ack:1492
+^^^^^ 89.374262989 SemiTcpAgent::timeout sn:1698 highest_ack:1492
+^^^^^ 89.926657656 SemiTcpAgent::timeout sn:1709 highest_ack:1496
+^^^^^ 90.774723656 SemiTcpAgent::timeout sn:1728 highest_ack:1500
+^^^^^ 91.214723656 SemiTcpAgent::timeout sn:1736 highest_ack:1500
+^^^^^ 91.688172323 SemiTcpAgent::timeout sn:1745 highest_ack:1501
+^^^^^ 92.128172323 SemiTcpAgent::timeout sn:1753 highest_ack:1501
+^^^^^ 92.605252989 SemiTcpAgent::timeout sn:1764 highest_ack:1505
+^^^^^ 93.045252989 SemiTcpAgent::timeout sn:1773 highest_ack:1505
+^^^^^ 93.532264989 SemiTcpAgent::timeout sn:1781 highest_ack:1524
+^^^^^ 93.972264989 SemiTcpAgent::timeout sn:1789 highest_ack:1524
+^^^^^ 94.551878323 SemiTcpAgent::timeout sn:1800 highest_ack:1596
+^^^^^ 94.991878323 SemiTcpAgent::timeout sn:1809 highest_ack:1596
+^^^^^ 95.534392656 SemiTcpAgent::timeout sn:1820 highest_ack:1678
+^^^^^ 95.974392656 SemiTcpAgent::timeout sn:1828 highest_ack:1678
+^^^^^ 96.504445323 SemiTcpAgent::timeout sn:1838 highest_ack:1693
+^^^^^ 96.944445323 SemiTcpAgent::timeout sn:1847 highest_ack:1693
+^^^^^ 97.525407656 SemiTcpAgent::timeout sn:1859 highest_ack:1695
+^^^^^ 97.965407656 SemiTcpAgent::timeout sn:1867 highest_ack:1695
+^^^^^ 98.449954989 SemiTcpAgent::timeout sn:1877 highest_ack:1707
+^^^^^ 98.889954989 SemiTcpAgent::timeout sn:1885 highest_ack:1707
+^^^^^ 99.468460323 SemiTcpAgent::timeout sn:1896 highest_ack:1714
+^^^^^ 99.908460323 SemiTcpAgent::timeout sn:1902 highest_ack:1714

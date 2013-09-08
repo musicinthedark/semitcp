@@ -1,0 +1,481 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+
+#define PARTIALACK ///Acknowledge a single packet
+
+//#define TCPDEBUG
+
+#include "ip.h"
+#include "tcp.h"
+#include "semitcp.h"
+#include <unistd.h>
+
+#ifdef SEMITCP
+static class SemiTcpClass : public TclClass
+{
+public:
+        SemiTcpClass() : TclClass ( "Agent/TCP/Semi" ) {}
+        TclObject* create ( int, const char*const* ) {
+                return ( new SemiTcpAgent() );
+        }
+} class_semi;
+
+void DeferSendTimer::handle ( Event* )
+{
+        busy_ = 0;
+#ifdef TCPDEBUG
+        printf ( "%10.9f DeferSendTimer::%s rate_interval:%.9f\n", Scheduler::instance().clock(), __FUNCTION__, a_->rate_interval_ );
+#endif
+        a_->send_down ( true );
+        if ( a_->use_ap_ ) {
+                assert ( a_->rate_interval_ > 0.0 );
+                start ( a_->rate_interval_ );
+        }
+}
+SemiTcpAgent::SemiTcpAgent() :defer_send_timer_ ( this ),
+///SEMIAP: imported from TCP-AP
+                n_factor_ ( 4 ),
+                samplecount_ ( 0 ), rate_interval_ ( 0.001 ), alpha_ ( 0.7 ),
+                gamma_ ( 0.5 ), history_ ( 50 ), delaybound_ ( 0.5 ), ll_bandwidth_ ( 2e6 ),
+                n_hop_delay_ ( 0 ), avg_n_hop_delay_ ( 0 ), avg_queuing_delay_ ( 0 ),
+                //direct ( false ), 
+                use_ap_ ( 0 )
+///End SEMIAP
+{
+        p_to_mac = NULL;
+        bind ( "use_ap_", &use_ap_ );
+}
+
+int SemiTcpAgent::command ( int argc, const char*const* argv )
+{
+        if ( argc == 3 && strcmp ( argv[1], "semitcp-get-mac" ) == 0 ) { //attatch to the mac object
+                p_to_mac = ( Mac802_11* ) TclObject::lookup ( argv[2] );
+                if ( p_to_mac == 0 ) {
+                        return TCL_ERROR;
+                } else {
+                        return TCL_OK;
+                }
+        } else if ( argc == 2 && strcmp ( argv[1], "get-highest-acked" ) == 0 ) { //Merely for debugging
+                printf ( "highest acked seqno: %d \n", ( int ) highest_ack_ );
+                return TCL_OK;
+        }
+        return TcpAgent::command ( argc, argv );
+}
+
+void SemiTcpAgent::reset ()
+{
+        TcpAgent::reset ();
+
+        //since we don't use congestion window in SemiTcp, we set the variable as negative.
+        cwnd_ = -1;
+        ssthresh_ = -1;
+        wnd_restart_ = -1.;
+        awnd_ = -1;
+}
+
+void
+SemiTcpAgent::output ( int seqno, int reason )
+{
+#ifdef TCPDEBUG
+        printf ( "-------%10.9f SemiTcpAgent::%s seqno:%d rtx:%d\n", Scheduler::instance().clock(), __FUNCTION__, seqno, seqno < t_seqno_ - 1 );
+#endif
+        int force_set_rtx_timer = 0;
+        Packet* p = allocpkt();
+
+        ///record the number of unacked packets
+        struct hdr_cmn* ch = HDR_CMN ( p );
+        ch->num_acked() = ( int ) t_seqno_ -1 - unacked.size();
+
+        hdr_tcp *tcph = hdr_tcp::access ( p );
+        int databytes = hdr_cmn::access ( p )->size();
+        tcph->seqno() = seqno;
+        tcph->ts() = Scheduler::instance().clock();
+        tcph->ts_echo() = ts_peer_;
+        tcph->reason() = reason;
+        tcph->last_rtt() = int ( int ( t_rtt_ ) *tcp_tick_*1000 );
+
+        /* Check if this is the initial SYN packet. */
+        if ( seqno == 0 ) {
+                if ( syn_ ) {
+                        databytes = 0;
+                        curseq_ += 1;
+                        hdr_cmn::access ( p )->size() = tcpip_base_hdr_size_;
+                }
+        } else if ( useHeaders_ == true ) {
+                hdr_cmn::access ( p )->size() += headersize();
+        }
+        hdr_cmn::access ( p )->size();
+
+        /* if no outstanding data, be sure to set rtx timer again */
+        if ( highest_ack_ == maxseq_ )
+                force_set_rtx_timer = 1;
+
+        ++ndatapack_;
+        ndatabytes_ += databytes;
+
+        send ( p, 0 );   //send the packet of p.
+
+#ifdef PARTIALACK
+        assert ( seqno <= t_seqno_ );
+        if ( seqno == t_seqno_ ) {
+                unacked.push_back ( seqno );
+        }
+#endif
+
+        if ( seqno == curseq_ && seqno > maxseq_ )
+                idle();  // Tell application I have sent everything so far
+        if ( seqno > maxseq_ ) {
+                maxseq_ = seqno;
+                if ( !rtt_active_ ) {
+                        rtt_active_ = 1;
+                        if ( seqno > rtt_seq_ ) {
+                                rtt_seq_ = seqno;
+                                rtt_ts_ = Scheduler::instance().clock();
+                        }
+                }
+        } else {
+                ++nrexmitpack_;
+                nrexmitbytes_ += databytes;
+        }
+        if ( ! ( rtx_timer_.status() == TIMER_PENDING ) )
+                /* No timer pending.  Schedule one. */
+                set_rtx_timer();
+}
+
+void SemiTcpAgent::recv_newack_helper ( Packet *pkt )
+{
+        newack ( pkt );
+
+        /* if the connection is done, call finish() */
+        if ( ( highest_ack_ >= curseq_-1 ) && !closed_ ) {
+                closed_ = 1;
+                finish();
+        }
+        if ( curseq_ == highest_ack_ +1 ) {
+                cancel_rtx_timer();
+        }
+}
+/*
+ * Process a packet that acks previously unacknowleged data.
+ */
+void SemiTcpAgent::newack ( Packet* pkt )
+{
+        double now = Scheduler::instance().clock();
+        hdr_tcp *tcph = hdr_tcp::access ( pkt );
+
+        if ( timerfix_ )
+                newtimer ( pkt );
+        dupacks_ = 0;
+        last_ack_ = tcph->seqno();
+        prev_highest_ack_ = highest_ack_ ;
+        highest_ack_ = last_ack_;
+
+        if ( t_seqno_ < last_ack_ + 1 )
+                t_seqno_ = last_ack_ + 1;
+        /*
+        * Update RTT only if it's OK to do so from info in the flags header.
+        * This is needed for protocols in which intermediate agents
+        * in the network intersperse acks (e.g., ack-reconstructors) for
+        * various reasons (without violating e2e semantics).
+        */
+        hdr_flags *fh = hdr_flags::access ( pkt );
+        if ( !fh->no_ts_ ) {
+                if ( ts_option_ ) {
+                        ts_echo_=tcph->ts_echo();
+                        rtt_update ( now - tcph->ts_echo() );
+                        if ( ts_resetRTO_ && ( !ect_ || !ecn_backoff_ ||
+                                               !hdr_flags::access ( pkt )->ecnecho() ) ) {
+                                // From Andrei Gurtov
+                                /*
+                                * Don't end backoff if still in ECN-Echo with
+                                * a congestion window of 1 packet.
+                                */
+                                t_backoff_ = 1;
+                                ecn_backoff_ = 0;
+                        }
+                }
+                if ( rtt_active_ && tcph->seqno() >= rtt_seq_ ) {
+                        if ( !ect_ || !ecn_backoff_ ||
+                             !hdr_flags::access ( pkt )->ecnecho() ) {
+                                /*
+                                * Don't end backoff if still in ECN-Echo with
+                                * a congestion window of 1 packet.
+                                */
+                                t_backoff_ = 1;
+                                ecn_backoff_ = 0;
+                        }
+                        rtt_active_ = 0;
+                        if ( !ts_option_ )
+                                rtt_update ( now - rtt_ts_ );
+                }
+        }
+        assert ( cwnd_ == -1 );
+}
+
+void SemiTcpAgent::recv ( Packet *pkt, Handler* )
+{
+        hdr_tcp *tcph = hdr_tcp::access ( pkt );
+#ifdef notdef
+        if ( pkt->type_ != PT_ACK ) {
+                Tcl::instance().evalf ( "%s error \"received non-ack\"",
+                                        name() );
+                Packet::free ( pkt );
+                return;
+        }
+#endif
+#ifdef TCPDEBUG
+        printf ( "%10.9f SemiTcpAgent::%s ack-seqno:%d reason:%d dupacks_%d t_seqno:%d highest_ack:%d\n", Scheduler::instance().clock(), __FUNCTION__,  tcph->seqno(), tcph->reason(), ( int ) dupacks_, ( int ) t_seqno_, ( int ) highest_ack_ );
+#endif
+
+        if ( use_ap_ ) { ///Imported from TCP-AP
+                hdr_cmn *ch = hdr_cmn::access ( pkt );
+                int numhops = int ( ch->num_forwards() );
+                double rtt = Scheduler::instance().clock() - tcph->ts_echo();
+
+                /* describes packet overhead (headers of TCP, IP, MAC ..) */
+                double overhead = 112.0;
+                double datasize = size_ + overhead;
+                /* TCP ACKs only consist of headers */
+                double acksize = overhead;
+                /* bandwidth in bytes/s */
+                double bandwidth = ll_bandwidth_ / 8;
+                double queuing_delay = ( 1.0/2.0 ) * ( rtt/numhops - ( datasize+acksize ) /bandwidth );
+                if ( queuing_delay > delaybound_ ) {
+                        queuing_delay = avg_queuing_delay_;
+                }
+                double calc_data_delay = ( double ) numhops * ( queuing_delay + ( datasize/bandwidth ) );
+                double calc_ack_delay = ( double ) numhops * ( queuing_delay + ( acksize/bandwidth ) );
+
+                avg_queuing_delay_ = gamma_ * avg_queuing_delay_ + ( 1.0-gamma_ ) * queuing_delay;
+                double one_hop = calc_data_delay / ( double ) numhops;
+
+                if ( tcph->ts() > 0.0 ) {
+                        if ( numhops >= n_factor_ ) {
+                                n_hop_delay_ = one_hop * ( double ) n_factor_;
+                        } else {
+                                n_hop_delay_ = one_hop;
+                        }
+                } else {
+                        n_hop_delay_ = 0;
+                }
+
+                if ( n_hop_delay_ > 0.0 && n_hop_delay_ < delaybound_ ) {
+                        if ( avg_n_hop_delay_ == 0.0 ) {
+                                avg_n_hop_delay_ = n_hop_delay_;
+                        } else {
+                                avg_n_hop_delay_ = alpha_ * avg_n_hop_delay_ + ( 1.0 - alpha_ ) * n_hop_delay_;
+                        }
+                }
+                calc_variation();
+                if ( avg_n_hop_delay_ > 0.0 ) {
+                        /* Instead of the coefficient of variation we can alternatively
+                            use the mean absolute deviation to avoid computing the sqrt
+                            which saves us processor time and energy.
+                          */
+
+                        //rate_interval_ = (1 + 2 * coeff_var_) * avg_n_hop_delay_;
+                        rate_interval_ = (1 + 2 * adev_) * avg_n_hop_delay_;
+                        /*//YGC
+                        double tmp = ( 1 + 2 * adev_ ) * avg_n_hop_delay_;
+                        if ( tmp < delaybound_ )
+                                rate_interval_ = tmp;
+                        ///YGC*/
+                }
+                if ( !defer_send_timer_.busy() ) {
+                        assert ( rate_interval_ > 0.0 );
+                        defer_send_timer_.start ( rate_interval_ );
+                }
+                //pace_timeout();
+        }
+
+        /* W.N.: check if this is from a previous incarnation */
+        if ( tcph->ts() < lastreset_ ) {
+                // Remove packet and do nothing
+                Packet::free ( pkt );
+                return;
+        }
+        ++nackpack_;
+        if ( tcph->seqno() > highest_ack_ && tcph->reason() == 0 ) {
+                if ( highest_ack_ + 1 > t_seqno_ ) {
+                        t_seqno_ = highest_ack_ + 1;
+                }
+                highest_ack_ = tcph->seqno();
+                recv_newack_helper ( pkt );
+        }
+#ifdef PARTIALACK
+        if ( tcph->reason() == 0 ) { //Oridinary ack
+                //Update the unacked list
+                while ( !unacked.empty() && *unacked.begin() <= tcph->seqno() ) {
+                        int tmp = *unacked.begin();
+                        unacked.remove ( tmp );
+                }
+        } else {
+                if ( find ( unacked.begin(), unacked.end(), tcph->seqno() ) != unacked.end() )
+                        unacked.remove ( tcph->seqno() );
+        }
+        if ( !unacked.empty() ) {
+                int tmp = *unacked.begin() - 1;
+                if ( tmp > ( int ) highest_ack_ ) {
+                        highest_ack_ = tmp;
+#ifdef TCPDBEUG
+                        printf ( "\t\t\t new highest acked:%d\n", highest_ack_ );
+#endif
+                }
+        }
+#endif
+        Packet::free ( pkt );
+}
+
+///Called when the retransimition timer times out
+void SemiTcpAgent::timeout ( int tno )
+{
+#ifdef TCPDEBUG
+        printf ( "^^^^^ %10.9f SemiTcpAgent::%s sn:%d highest_ack:%d\n", Scheduler::instance().clock(), __FUNCTION__, ( int ) t_seqno_, ( int ) highest_ack_ );
+#endif
+        assert ( tno == TCP_TIMER_RTX );
+
+        trace_event ( "TIMEOUT" );
+
+        assert ( cwnd_ == -1 );
+
+        ///reset_rtx_timer(backoff)
+        reset_rtx_timer ( 0 );
+        if ( find ( seqnolist.begin(), seqnolist.end(), highest_ack_ + 1 ) == seqnolist.end() )
+                seqnolist.push_back ( highest_ack_ + 1 );
+}
+
+
+/*
+ * send_much() is called by sendmsg which is call by application layer protocol,
+ * when the app layer has data to send at first.
+ */
+void SemiTcpAgent::send_much ( int force, int reason, int maxburst )
+{
+#ifdef TCPDEBUG
+        printf ( "%10.9f SemiTcpAgent::%s\n", Scheduler::instance().clock(), __FUNCTION__ );
+#endif
+        if ( p_to_mac->spaces_available() ) {
+                output ( t_seqno_, reason );
+                t_seqno_++;
+
+        }
+}
+
+///called by the lower layer, when the lower layer is not congested or the routing layer buffer drop a packet due to routing failure
+void SemiTcpAgent::send_down ( bool force )
+{
+#ifdef TCPDEBUG
+        printf ( "%10.9f SemiTcpAgent::%s t_seqno_:%d last_ack_:%d curseq_:%d\n", Scheduler::instance().clock(), __FUNCTION__, int ( t_seqno_ ), int ( last_ack_ ), int ( curseq_ ) );
+#endif
+
+        if ( use_ap_ ) { ///Used for adpative pacing
+                if ( force ) {
+                        if ( !p_to_mac->spaces_available() ) {
+                                //direct = true;
+                                if ( defer_send_timer_.busy() ) {
+                                        defer_send_timer_.stop();
+                                        defer_send_timer_.start ( rate_interval_ );
+                                }
+                                return;
+                        }
+                } else {
+                        /*if ( direct )
+                                direct = false;
+                        else*/ {
+                                if ( defer_send_timer_.busy() )
+                                        return;
+                        }
+                }
+        } else {
+                if ( !force ) {
+                        if ( defer_send_timer_.busy() ) {
+#ifdef TCPDEBUG
+                                printf ( "\t\t called but the defer_send_timer_ is busy, return\n" );
+#endif
+                                return;
+                        }
+                }
+        }
+
+        int tmpseqno = -1;
+        seqnolist.sort();
+        if ( !seqnolist.empty() ) {
+                do {
+                        tmpseqno = *seqnolist.begin();
+                        seqnolist.remove ( tmpseqno );
+#ifdef TCPDEBUG
+                        printf ( "listsize:%d tmpseqno:%d\n", seqnolist.size(), tmpseqno );
+#endif
+                } while ( tmpseqno <= last_ack_ && !seqnolist.empty() );
+        }
+        if ( tmpseqno >= 0 && tmpseqno > highest_ack_ ) {
+                output ( tmpseqno, 0 );
+        } else {
+                output ( t_seqno_, 0 );
+                t_seqno_ ++;
+        }
+}
+void SemiTcpAgent::reset_rtx_timer ( int backoff )
+{
+        if ( backoff )
+                rtt_backoff();
+        set_rtx_timer();
+        rtt_active_ = 0;
+}
+
+void SemiTcpAgent::set_rtx_timer()
+{
+        double rto = rtt_timeout();
+        rtx_timer_.resched ( rto );
+#ifdef TCPDEBUG
+        printf ( "%10.9f SemiTcpAgent::%s RTO_Value:%f srtt:%f\n", Scheduler::instance().clock(), __FUNCTION__, rto, int ( t_srtt_ ) *0.001 );
+#endif
+}
+///SEMIAP: Imported from TCP-AP
+void SemiTcpAgent::calc_variation()
+{
+
+        double sumsamples = 0;
+        double mean = 0;
+        double dev_1 = 0;
+        double dev_1_2 = 0;
+        double std_dev = 0;
+        //double std_dev2 = 0;
+
+        if ( n_hop_delay_ > 0.0 && n_hop_delay_ < delaybound_ ) {
+                if ( samplecount_ < history_ ) {
+                        samples[samplecount_] = n_hop_delay_;
+                        samplecount_++;
+                } else {
+                        for ( int i = 0; i < samplecount_ - 1; i++ ) {
+                                samples[i] = samples[i+1];
+                        }
+                        samples[samplecount_ - 1] = n_hop_delay_;
+                }
+        } else {
+                return;
+        }
+        for ( int i = 0; i < samplecount_; i++ ) {
+                sumsamples+= samples[i];
+        }
+        mean = sumsamples / samplecount_;
+
+        for ( int i = 0; i < samplecount_; i++ ) {
+                double diff_2 = samples[i] - mean;
+                dev_1_2 += pow ( diff_2, 2 );
+                double diff = fabs ( samples[i] - mean );
+                dev_1 += diff;
+        }
+        if ( dev_1 > 0.0 ) {
+                std_dev = dev_1/samplecount_;
+                //std_dev2 = sqrt(dev_1_2/samplecount_);
+        } else {
+                return;
+        }
+
+        adev_ = std_dev / mean;
+        //coeff_var_ = std_dev2 / mean;
+}
+///End SEMIAP
+#endif

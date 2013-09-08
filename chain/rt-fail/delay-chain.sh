@@ -1,0 +1,22 @@
+#set title "SemiTcp and TCP-AP Delay"
+# 黑白图片
+#set term postscript eps monochrome blacktext "Helvetica" 24
+# 彩色图片
+set term postscript eps enhanced color blacktext "Helvetica" 24
+
+set grid
+set boxwidth 20
+
+set xlabel "Path length in number of hops(N)" 0,0
+set ylabel "Delay(ms)"
+set output 'delay-chain.eps'
+# right top表示位置显示。Left 表示框子里的字左对齐。width X用来限定框子大小。box X用来表示选用哪种类型的框子--颜色可能不同。
+#set key right top Left reverse width 0 box 3
+set key left top Left reverse 
+
+plot './ap-dupack/delay' u 1:2 title 'TCP-AP' with linespoints,\
+	'./ap-nodupack/delay' u 1:2 title 'TCP-AP Without Duplicate ACK' with linespoints,\
+	'./semi-dupack/delay' u 1:2 title 'Semi-TCP' with linespoints,\
+	'./semi-dupack-use-ap/delay' u 1:2 title 'Semi-TCP Using Adaptive Pacing' with linespoints,\
+	'./semi-nodupack/delay' u 1:2 title 'Semi-TCP Without Duplicate ACK' with linespoints
+

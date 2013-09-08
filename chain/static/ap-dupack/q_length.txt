@@ -1,0 +1,723 @@
+Fri Aug 20 21:09:48 CST 2010
+--- Hop Node Number:2 ---
+----TCP-AP----
+num_nodes is set 2
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 131 empty_duration: 20.185763033 rts_fail: 155 rts_success: 11176 cts_fail: 0 data_fail: 0 cts_recv: 11176
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 60.578527024 rts_fail: 155 rts_success: 11176 cts_fail: 0 data_fail: 0 cts_recv: 11176
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:3 ---
+----TCP-AP----
+num_nodes is set 3
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 66 empty_duration: 36.466426629 rts_fail: 97 rts_success: 5650 cts_fail: 0 data_fail: 0 cts_recv: 5650
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 27.687217433 rts_fail: 202 rts_success: 11299 cts_fail: 0 data_fail: 0 cts_recv: 11299
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.274936664 rts_fail: 105 rts_success: 5649 cts_fail: 0 data_fail: 0 cts_recv: 5649
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:4 ---
+----TCP-AP----
+num_nodes is set 4
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 97 empty_duration: 42.064289600 rts_fail: 2044 rts_success: 3598 cts_fail: 0 data_fail: 0 cts_recv: 3598
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 52.046077094 rts_fail: 132 rts_success: 6997 cts_fail: 0 data_fail: 1 cts_recv: 6997
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 54.744100391 rts_fail: 145 rts_success: 6996 cts_fail: 0 data_fail: 0 cts_recv: 6996
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.840346427 rts_fail: 3645 rts_success: 3399 cts_fail: 0 data_fail: 0 cts_recv: 3399
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:5 ---
+----TCP-AP----
+num_nodes is set 5
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 123 empty_duration: 72.333785587 rts_fail: 1710 rts_success: 2731 cts_fail: 0 data_fail: 0 cts_recv: 2731
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.690635970 rts_fail: 80 rts_success: 5339 cts_fail: 0 data_fail: 0 cts_recv: 5339
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.524198870 rts_fail: 8 rts_success: 5339 cts_fail: 0 data_fail: 0 cts_recv: 5339
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.825690171 rts_fail: 839 rts_success: 5342 cts_fail: 0 data_fail: 0 cts_recv: 5342
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 91.853273080 rts_fail: 347 rts_success: 2672 cts_fail: 0 data_fail: 0 cts_recv: 2672
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:6 ---
+----TCP-AP----
+num_nodes is set 6
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 107 empty_duration: 79.295515854 rts_fail: 1053 rts_success: 2412 cts_fail: 0 data_fail: 0 cts_recv: 2412
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.770408717 rts_fail: 586 rts_success: 4744 cts_fail: 0 data_fail: 2 cts_recv: 4744
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.749280518 rts_fail: 66 rts_success: 4721 cts_fail: 0 data_fail: 10 cts_recv: 4721
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.422976008 rts_fail: 1635 rts_success: 4712 cts_fail: 0 data_fail: 0 cts_recv: 4712
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.744529362 rts_fail: 1075 rts_success: 4739 cts_fail: 0 data_fail: 0 cts_recv: 4739
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.058628146 rts_fail: 496 rts_success: 2356 cts_fail: 0 data_fail: 0 cts_recv: 2356
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:7 ---
+----TCP-AP----
+num_nodes is set 7
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 69 empty_duration: 82.678215210 rts_fail: 638 rts_success: 2256 cts_fail: 0 data_fail: 0 cts_recv: 2256
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.999065158 rts_fail: 813 rts_success: 4501 cts_fail: 0 data_fail: 7 cts_recv: 4501
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 68.491574497 rts_fail: 575 rts_success: 4487 cts_fail: 0 data_fail: 4 cts_recv: 4487
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 61.032719465 rts_fail: 1238 rts_success: 4465 cts_fail: 0 data_fail: 8 cts_recv: 4465
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.967433367 rts_fail: 2036 rts_success: 4493 cts_fail: 0 data_fail: 0 cts_recv: 4493
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.917357586 rts_fail: 961 rts_success: 4478 cts_fail: 0 data_fail: 0 cts_recv: 4478
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.290512204 rts_fail: 480 rts_success: 2231 cts_fail: 0 data_fail: 0 cts_recv: 2231
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:8 ---
+----TCP-AP----
+num_nodes is set 8
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 61 empty_duration: 83.311554751 rts_fail: 524 rts_success: 2204 cts_fail: 0 data_fail: 0 cts_recv: 2204
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.074760847 rts_fail: 477 rts_success: 4397 cts_fail: 0 data_fail: 5 cts_recv: 4397
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.479709720 rts_fail: 997 rts_success: 4432 cts_fail: 0 data_fail: 12 cts_recv: 4432
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 60.746560281 rts_fail: 1288 rts_success: 4400 cts_fail: 0 data_fail: 5 cts_recv: 4400
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.867536419 rts_fail: 1234 rts_success: 4390 cts_fail: 0 data_fail: 5 cts_recv: 4390
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.033350286 rts_fail: 2182 rts_success: 4407 cts_fail: 0 data_fail: 1 cts_recv: 4407
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 74.424118176 rts_fail: 989 rts_success: 4408 cts_fail: 0 data_fail: 0 cts_recv: 4408
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.774252426 rts_fail: 384 rts_success: 2186 cts_fail: 0 data_fail: 0 cts_recv: 2186
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:9 ---
+----TCP-AP----
+num_nodes is set 9
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 69 empty_duration: 83.324792651 rts_fail: 582 rts_success: 2179 cts_fail: 0 data_fail: 0 cts_recv: 2179
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 76.023004734 rts_fail: 441 rts_success: 4302 cts_fail: 0 data_fail: 3 cts_recv: 4302
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.811937703 rts_fail: 460 rts_success: 4300 cts_fail: 0 data_fail: 6 cts_recv: 4300
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 58.214383864 rts_fail: 1721 rts_success: 4326 cts_fail: 0 data_fail: 13 cts_recv: 4326
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 59.145545294 rts_fail: 1558 rts_success: 4330 cts_fail: 0 data_fail: 5 cts_recv: 4330
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.526732707 rts_fail: 1112 rts_success: 4308 cts_fail: 0 data_fail: 9 cts_recv: 4308
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.208570156 rts_fail: 2032 rts_success: 4320 cts_fail: 0 data_fail: 0 cts_recv: 4320
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.646327045 rts_fail: 859 rts_success: 4317 cts_fail: 0 data_fail: 0 cts_recv: 4317
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.674797639 rts_fail: 358 rts_success: 2144 cts_fail: 0 data_fail: 0 cts_recv: 2144
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:10 ---
+----TCP-AP----
+num_nodes is set 10
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 64 empty_duration: 84.151465572 rts_fail: 450 rts_success: 2123 cts_fail: 0 data_fail: 0 cts_recv: 2123
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.744361029 rts_fail: 586 rts_success: 4228 cts_fail: 0 data_fail: 7 cts_recv: 4228
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.888458776 rts_fail: 541 rts_success: 4223 cts_fail: 0 data_fail: 5 cts_recv: 4223
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.910772748 rts_fail: 1216 rts_success: 4227 cts_fail: 0 data_fail: 12 cts_recv: 4227
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 56.422745662 rts_fail: 1991 rts_success: 4271 cts_fail: 0 data_fail: 7 cts_recv: 4271
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 61.906164560 rts_fail: 1394 rts_success: 4222 cts_fail: 0 data_fail: 4 cts_recv: 4222
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.501147502 rts_fail: 1126 rts_success: 4214 cts_fail: 0 data_fail: 6 cts_recv: 4214
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.922613559 rts_fail: 1850 rts_success: 4228 cts_fail: 0 data_fail: 0 cts_recv: 4228
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.433778328 rts_fail: 648 rts_success: 4220 cts_fail: 0 data_fail: 0 cts_recv: 4220
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.939230256 rts_fail: 334 rts_success: 2099 cts_fail: 0 data_fail: 0 cts_recv: 2099
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:11 ---
+----TCP-AP----
+num_nodes is set 11
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 81 empty_duration: 84.287796679 rts_fail: 462 rts_success: 2091 cts_fail: 0 data_fail: 0 cts_recv: 2091
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 76.551814927 rts_fail: 487 rts_success: 4155 cts_fail: 0 data_fail: 2 cts_recv: 4155
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.788440430 rts_fail: 644 rts_success: 4167 cts_fail: 0 data_fail: 9 cts_recv: 4167
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.727294578 rts_fail: 1248 rts_success: 4150 cts_fail: 0 data_fail: 5 cts_recv: 4150
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 59.979854761 rts_fail: 1589 rts_success: 4177 cts_fail: 0 data_fail: 8 cts_recv: 4177
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 58.439407428 rts_fail: 1877 rts_success: 4199 cts_fail: 0 data_fail: 10 cts_recv: 4199
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.414300452 rts_fail: 1358 rts_success: 4152 cts_fail: 0 data_fail: 4 cts_recv: 4152
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.831796261 rts_fail: 1255 rts_success: 4142 cts_fail: 0 data_fail: 5 cts_recv: 4142
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.646694425 rts_fail: 1670 rts_success: 4143 cts_fail: 0 data_fail: 0 cts_recv: 4143
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.428897003 rts_fail: 679 rts_success: 4154 cts_fail: 0 data_fail: 0 cts_recv: 4154
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.873200022 rts_fail: 347 rts_success: 2067 cts_fail: 0 data_fail: 0 cts_recv: 2067
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:12 ---
+----TCP-AP----
+num_nodes is set 12
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 66 empty_duration: 84.345078137 rts_fail: 488 rts_success: 2055 cts_fail: 0 data_fail: 0 cts_recv: 2055
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.076170013 rts_fail: 532 rts_success: 4079 cts_fail: 0 data_fail: 7 cts_recv: 4079
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.646898039 rts_fail: 547 rts_success: 4072 cts_fail: 0 data_fail: 8 cts_recv: 4072
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.116522180 rts_fail: 1352 rts_success: 4073 cts_fail: 0 data_fail: 13 cts_recv: 4073
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 61.966358668 rts_fail: 1667 rts_success: 4086 cts_fail: 0 data_fail: 7 cts_recv: 4086
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.702333399 rts_fail: 1595 rts_success: 4093 cts_fail: 0 data_fail: 5 cts_recv: 4093
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 61.253368129 rts_fail: 1645 rts_success: 4087 cts_fail: 0 data_fail: 3 cts_recv: 4087
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.726509667 rts_fail: 1430 rts_success: 4076 cts_fail: 0 data_fail: 8 cts_recv: 4076
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 68.152074379 rts_fail: 1246 rts_success: 4059 cts_fail: 0 data_fail: 6 cts_recv: 4059
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.162398381 rts_fail: 1393 rts_success: 4065 cts_fail: 0 data_fail: 1 cts_recv: 4065
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.777103659 rts_fail: 674 rts_success: 4056 cts_fail: 0 data_fail: 0 cts_recv: 4056
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.153270369 rts_fail: 293 rts_success: 2021 cts_fail: 0 data_fail: 0 cts_recv: 2021
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:13 ---
+----TCP-AP----
+num_nodes is set 13
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 66 empty_duration: 84.870636707 rts_fail: 486 rts_success: 1989 cts_fail: 0 data_fail: 0 cts_recv: 1989
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.641887762 rts_fail: 450 rts_success: 3951 cts_fail: 0 data_fail: 7 cts_recv: 3951
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.243633153 rts_fail: 554 rts_success: 3951 cts_fail: 0 data_fail: 5 cts_recv: 3951
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.005655034 rts_fail: 1206 rts_success: 3959 cts_fail: 0 data_fail: 13 cts_recv: 3959
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.648734468 rts_fail: 1606 rts_success: 3964 cts_fail: 0 data_fail: 10 cts_recv: 3964
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.921665364 rts_fail: 1680 rts_success: 3972 cts_fail: 0 data_fail: 4 cts_recv: 3972
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.898110509 rts_fail: 1499 rts_success: 3962 cts_fail: 0 data_fail: 5 cts_recv: 3962
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 62.489239365 rts_fail: 1572 rts_success: 3975 cts_fail: 0 data_fail: 7 cts_recv: 3975
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.697293629 rts_fail: 1399 rts_success: 3959 cts_fail: 0 data_fail: 5 cts_recv: 3959
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.822627168 rts_fail: 1051 rts_success: 3949 cts_fail: 0 data_fail: 12 cts_recv: 3949
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.440813081 rts_fail: 1262 rts_success: 3936 cts_fail: 0 data_fail: 0 cts_recv: 3936
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.534719820 rts_fail: 616 rts_success: 3936 cts_fail: 0 data_fail: 0 cts_recv: 3936
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.179327328 rts_fail: 326 rts_success: 1961 cts_fail: 0 data_fail: 0 cts_recv: 1961
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:14 ---
+----TCP-AP----
+num_nodes is set 14
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 62 empty_duration: 84.846118442 rts_fail: 483 rts_success: 1996 cts_fail: 0 data_fail: 0 cts_recv: 1996
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.059760662 rts_fail: 447 rts_success: 3940 cts_fail: 0 data_fail: 3 cts_recv: 3940
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 74.587859044 rts_fail: 528 rts_success: 3946 cts_fail: 0 data_fail: 8 cts_recv: 3946
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.590494251 rts_fail: 1236 rts_success: 3950 cts_fail: 0 data_fail: 10 cts_recv: 3950
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.349180875 rts_fail: 1647 rts_success: 3961 cts_fail: 0 data_fail: 6 cts_recv: 3961
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.657432337 rts_fail: 1653 rts_success: 3968 cts_fail: 0 data_fail: 7 cts_recv: 3968
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.455943127 rts_fail: 1515 rts_success: 3963 cts_fail: 0 data_fail: 8 cts_recv: 3963
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.914832194 rts_fail: 1476 rts_success: 3974 cts_fail: 0 data_fail: 6 cts_recv: 3974
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.672715220 rts_fail: 1599 rts_success: 3969 cts_fail: 0 data_fail: 6 cts_recv: 3969
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.621472682 rts_fail: 1348 rts_success: 3960 cts_fail: 0 data_fail: 4 cts_recv: 3960
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.879015462 rts_fail: 1029 rts_success: 3946 cts_fail: 0 data_fail: 5 cts_recv: 3946
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.110190310 rts_fail: 1228 rts_success: 3946 cts_fail: 0 data_fail: 0 cts_recv: 3946
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.667853573 rts_fail: 596 rts_success: 3933 cts_fail: 0 data_fail: 0 cts_recv: 3933
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 93.947344700 rts_fail: 337 rts_success: 1961 cts_fail: 0 data_fail: 0 cts_recv: 1961
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:15 ---
+----TCP-AP----
+num_nodes is set 15
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 48 empty_duration: 85.370568354 rts_fail: 413 rts_success: 1971 cts_fail: 0 data_fail: 0 cts_recv: 1971
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.774215097 rts_fail: 475 rts_success: 3930 cts_fail: 0 data_fail: 7 cts_recv: 3930
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.018367760 rts_fail: 543 rts_success: 3928 cts_fail: 0 data_fail: 6 cts_recv: 3928
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.404176863 rts_fail: 1149 rts_success: 3930 cts_fail: 0 data_fail: 8 cts_recv: 3930
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.021071166 rts_fail: 1535 rts_success: 3948 cts_fail: 0 data_fail: 9 cts_recv: 3948
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.317509385 rts_fail: 1668 rts_success: 3948 cts_fail: 0 data_fail: 7 cts_recv: 3948
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.944270503 rts_fail: 1547 rts_success: 3945 cts_fail: 0 data_fail: 9 cts_recv: 3945
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.723377403 rts_fail: 1537 rts_success: 3960 cts_fail: 0 data_fail: 7 cts_recv: 3960
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.756912861 rts_fail: 1493 rts_success: 3955 cts_fail: 0 data_fail: 7 cts_recv: 3955
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.281167337 rts_fail: 1512 rts_success: 3948 cts_fail: 0 data_fail: 4 cts_recv: 3948
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.534651530 rts_fail: 1488 rts_success: 3943 cts_fail: 0 data_fail: 3 cts_recv: 3943
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.336507476 rts_fail: 1066 rts_success: 3922 cts_fail: 0 data_fail: 6 cts_recv: 3922
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.125314714 rts_fail: 1227 rts_success: 3924 cts_fail: 0 data_fail: 1 cts_recv: 3924
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.187168452 rts_fail: 652 rts_success: 3925 cts_fail: 0 data_fail: 0 cts_recv: 3925
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.148324437 rts_fail: 302 rts_success: 1954 cts_fail: 0 data_fail: 0 cts_recv: 1954
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:16 ---
+----TCP-AP----
+num_nodes is set 16
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 66 empty_duration: 85.199793373 rts_fail: 424 rts_success: 1953 cts_fail: 0 data_fail: 0 cts_recv: 1953
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.697102208 rts_fail: 457 rts_success: 3903 cts_fail: 0 data_fail: 7 cts_recv: 3903
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.662560155 rts_fail: 527 rts_success: 3898 cts_fail: 0 data_fail: 5 cts_recv: 3898
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.573259562 rts_fail: 1189 rts_success: 3908 cts_fail: 0 data_fail: 13 cts_recv: 3908
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.315546571 rts_fail: 1576 rts_success: 3926 cts_fail: 0 data_fail: 8 cts_recv: 3926
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.873948626 rts_fail: 1537 rts_success: 3926 cts_fail: 0 data_fail: 5 cts_recv: 3926
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.149936698 rts_fail: 1560 rts_success: 3928 cts_fail: 0 data_fail: 13 cts_recv: 3928
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.316291275 rts_fail: 1566 rts_success: 3920 cts_fail: 0 data_fail: 14 cts_recv: 3920
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.436692215 rts_fail: 1598 rts_success: 3907 cts_fail: 0 data_fail: 6 cts_recv: 3907
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.635522765 rts_fail: 1569 rts_success: 3898 cts_fail: 0 data_fail: 2 cts_recv: 3898
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.024209488 rts_fail: 1542 rts_success: 3926 cts_fail: 0 data_fail: 10 cts_recv: 3926
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.135271197 rts_fail: 1461 rts_success: 3909 cts_fail: 0 data_fail: 6 cts_recv: 3909
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 70.603512435 rts_fail: 952 rts_success: 3898 cts_fail: 0 data_fail: 7 cts_recv: 3898
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 72.437237787 rts_fail: 1203 rts_success: 3890 cts_fail: 0 data_fail: 0 cts_recv: 3890
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 79.049156682 rts_fail: 583 rts_success: 3886 cts_fail: 0 data_fail: 0 cts_recv: 3886
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:15 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.241434079 rts_fail: 327 rts_success: 1937 cts_fail: 0 data_fail: 0 cts_recv: 1937
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:17 ---
+----TCP-AP----
+num_nodes is set 17
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 47 empty_duration: 85.772866163 rts_fail: 387 rts_success: 1906 cts_fail: 0 data_fail: 0 cts_recv: 1906
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.784360530 rts_fail: 447 rts_success: 3776 cts_fail: 0 data_fail: 2 cts_recv: 3776
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 76.072192885 rts_fail: 489 rts_success: 3784 cts_fail: 0 data_fail: 11 cts_recv: 3784
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 69.189011368 rts_fail: 1106 rts_success: 3790 cts_fail: 0 data_fail: 8 cts_recv: 3790
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.154176772 rts_fail: 1500 rts_success: 3793 cts_fail: 0 data_fail: 10 cts_recv: 3793
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.835002693 rts_fail: 1611 rts_success: 3794 cts_fail: 0 data_fail: 3 cts_recv: 3794
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.123278186 rts_fail: 1531 rts_success: 3798 cts_fail: 0 data_fail: 9 cts_recv: 3798
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.041091248 rts_fail: 1492 rts_success: 3800 cts_fail: 0 data_fail: 11 cts_recv: 3800
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.624963445 rts_fail: 1602 rts_success: 3799 cts_fail: 0 data_fail: 4 cts_recv: 3799
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.568134357 rts_fail: 1614 rts_success: 3785 cts_fail: 0 data_fail: 6 cts_recv: 3785
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.376560451 rts_fail: 1423 rts_success: 3788 cts_fail: 0 data_fail: 3 cts_recv: 3788
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.967409487 rts_fail: 1435 rts_success: 3813 cts_fail: 0 data_fail: 9 cts_recv: 3813
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.235050181 rts_fail: 1457 rts_success: 3789 cts_fail: 0 data_fail: 4 cts_recv: 3789
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.110982993 rts_fail: 997 rts_success: 3775 cts_fail: 0 data_fail: 8 cts_recv: 3775
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.333257266 rts_fail: 1133 rts_success: 3780 cts_fail: 0 data_fail: 0 cts_recv: 3780
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:15 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.589019915 rts_fail: 689 rts_success: 3772 cts_fail: 0 data_fail: 0 cts_recv: 3772
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:16 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.164734262 rts_fail: 367 rts_success: 1882 cts_fail: 0 data_fail: 0 cts_recv: 1882
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:18 ---
+----TCP-AP----
+num_nodes is set 18
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 64 empty_duration: 85.326422174 rts_fail: 415 rts_success: 1938 cts_fail: 0 data_fail: 0 cts_recv: 1938
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.954967617 rts_fail: 407 rts_success: 3861 cts_fail: 0 data_fail: 10 cts_recv: 3861
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 75.792360240 rts_fail: 482 rts_success: 3847 cts_fail: 0 data_fail: 8 cts_recv: 3847
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.838269208 rts_fail: 1159 rts_success: 3861 cts_fail: 0 data_fail: 10 cts_recv: 3861
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.569720027 rts_fail: 1470 rts_success: 3869 cts_fail: 0 data_fail: 7 cts_recv: 3869
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.221765894 rts_fail: 1557 rts_success: 3867 cts_fail: 0 data_fail: 11 cts_recv: 3867
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.369917860 rts_fail: 1568 rts_success: 3859 cts_fail: 0 data_fail: 5 cts_recv: 3859
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.503302053 rts_fail: 1640 rts_success: 3871 cts_fail: 0 data_fail: 7 cts_recv: 3871
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.325840751 rts_fail: 1633 rts_success: 3873 cts_fail: 0 data_fail: 16 cts_recv: 3873
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.611509189 rts_fail: 1612 rts_success: 3867 cts_fail: 0 data_fail: 9 cts_recv: 3867
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.622940111 rts_fail: 1499 rts_success: 3871 cts_fail: 0 data_fail: 7 cts_recv: 3871
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 63.992611240 rts_fail: 1629 rts_success: 3866 cts_fail: 0 data_fail: 6 cts_recv: 3866
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 64.629602966 rts_fail: 1452 rts_success: 3872 cts_fail: 0 data_fail: 7 cts_recv: 3872
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.818881704 rts_fail: 1354 rts_success: 3861 cts_fail: 0 data_fail: 5 cts_recv: 3861
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 70.958377853 rts_fail: 1049 rts_success: 3844 cts_fail: 0 data_fail: 7 cts_recv: 3844
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:15 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 73.537990823 rts_fail: 1095 rts_success: 3841 cts_fail: 0 data_fail: 0 cts_recv: 3841
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:16 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.394058943 rts_fail: 653 rts_success: 3851 cts_fail: 0 data_fail: 0 cts_recv: 3851
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:17 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.059344087 rts_fail: 345 rts_success: 1914 cts_fail: 0 data_fail: 0 cts_recv: 1914
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:19 ---
+----TCP-AP----
+num_nodes is set 19
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 55 empty_duration: 85.796161859 rts_fail: 385 rts_success: 1882 cts_fail: 0 data_fail: 0 cts_recv: 1882
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 79.759855565 rts_fail: 352 rts_success: 3744 cts_fail: 0 data_fail: 6 cts_recv: 3744
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 77.227957339 rts_fail: 391 rts_success: 3738 cts_fail: 0 data_fail: 9 cts_recv: 3738
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 70.374837877 rts_fail: 1018 rts_success: 3742 cts_fail: 0 data_fail: 8 cts_recv: 3742
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.388292079 rts_fail: 1368 rts_success: 3747 cts_fail: 0 data_fail: 6 cts_recv: 3747
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.573143591 rts_fail: 1313 rts_success: 3766 cts_fail: 0 data_fail: 13 cts_recv: 3766
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.162722220 rts_fail: 1421 rts_success: 3764 cts_fail: 0 data_fail: 11 cts_recv: 3764
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.192511497 rts_fail: 1407 rts_success: 3750 cts_fail: 0 data_fail: 6 cts_recv: 3750
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.564326558 rts_fail: 1489 rts_success: 3759 cts_fail: 0 data_fail: 7 cts_recv: 3759
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.286955591 rts_fail: 1596 rts_success: 3764 cts_fail: 0 data_fail: 10 cts_recv: 3764
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.045919980 rts_fail: 1508 rts_success: 3764 cts_fail: 0 data_fail: 10 cts_recv: 3764
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.278679306 rts_fail: 1548 rts_success: 3753 cts_fail: 0 data_fail: 3 cts_recv: 3753
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.587798224 rts_fail: 1379 rts_success: 3766 cts_fail: 0 data_fail: 10 cts_recv: 3766
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.145364767 rts_fail: 1376 rts_success: 3758 cts_fail: 0 data_fail: 4 cts_recv: 3758
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.405342194 rts_fail: 1374 rts_success: 3760 cts_fail: 0 data_fail: 6 cts_recv: 3760
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:15 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.585464411 rts_fail: 984 rts_success: 3741 cts_fail: 0 data_fail: 4 cts_recv: 3741
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:16 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 74.743336257 rts_fail: 1044 rts_success: 3731 cts_fail: 0 data_fail: 0 cts_recv: 3731
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:17 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 79.079923725 rts_fail: 624 rts_success: 3735 cts_fail: 0 data_fail: 0 cts_recv: 3735
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:18 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.346290300 rts_fail: 303 rts_success: 1860 cts_fail: 0 data_fail: 0 cts_recv: 1860
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+--- Hop Node Number:20 ---
+----TCP-AP----
+num_nodes is set 20
+channel.cc:sendUp - Calc highestAntennaZ_ and distCST_
+highestAntennaZ_ = 1.5,  distCST_ = 550.0
+99.999999900 node:0 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 51 empty_duration: 85.884079720 rts_fail: 374 rts_success: 1883 cts_fail: 0 data_fail: 0 cts_recv: 1883
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:1 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 79.263701789 rts_fail: 385 rts_success: 3738 cts_fail: 0 data_fail: 6 cts_recv: 3738
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:2 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 76.874456032 rts_fail: 381 rts_success: 3743 cts_fail: 0 data_fail: 8 cts_recv: 3743
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:3 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 68.496552316 rts_fail: 1113 rts_success: 3745 cts_fail: 0 data_fail: 6 cts_recv: 3745
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:4 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.079439036 rts_fail: 1393 rts_success: 3758 cts_fail: 0 data_fail: 2 cts_recv: 3758
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:5 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 67.928667612 rts_fail: 1382 rts_success: 3761 cts_fail: 0 data_fail: 4 cts_recv: 3761
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:6 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.125059985 rts_fail: 1565 rts_success: 3764 cts_fail: 0 data_fail: 12 cts_recv: 3764
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:7 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.770563714 rts_fail: 1506 rts_success: 3766 cts_fail: 0 data_fail: 8 cts_recv: 3766
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:8 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.420188260 rts_fail: 1531 rts_success: 3768 cts_fail: 0 data_fail: 10 cts_recv: 3768
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:9 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.707634848 rts_fail: 1462 rts_success: 3761 cts_fail: 0 data_fail: 6 cts_recv: 3761
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:10 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.147127196 rts_fail: 1522 rts_success: 3770 cts_fail: 0 data_fail: 5 cts_recv: 3770
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:11 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.276320370 rts_fail: 1492 rts_success: 3760 cts_fail: 0 data_fail: 6 cts_recv: 3760
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:12 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 65.595263218 rts_fail: 1481 rts_success: 3767 cts_fail: 0 data_fail: 11 cts_recv: 3767
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:13 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.017849738 rts_fail: 1452 rts_success: 3749 cts_fail: 0 data_fail: 3 cts_recv: 3749
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:14 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.301994906 rts_fail: 1469 rts_success: 3764 cts_fail: 0 data_fail: 3 cts_recv: 3764
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:15 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 66.548498985 rts_fail: 1354 rts_success: 3767 cts_fail: 0 data_fail: 2 cts_recv: 3767
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:16 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 71.865468055 rts_fail: 889 rts_success: 3747 cts_fail: 0 data_fail: 9 cts_recv: 3747
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:17 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 74.295326052 rts_fail: 1076 rts_success: 3746 cts_fail: 0 data_fail: 1 cts_recv: 3746
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:18 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 78.845483650 rts_fail: 702 rts_success: 3741 cts_fail: 0 data_fail: 0 cts_recv: 3741
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0
+99.999999900 node:19 sample:1  avg_rtq_len:0.000000 max_rtq_len:0 avg_l2_len:0.000000 max_l2_len:0 avg_whole:0.000000
+---- Contention failure count: 0 empty_duration: 94.275033662 rts_fail: 298 rts_success: 1863 cts_fail: 0 data_fail: 0 cts_recv: 1863
+---- Collision rts_rts: 0 rts_sync: 0 rts_data: 0 rts_tcp_data_col: 0

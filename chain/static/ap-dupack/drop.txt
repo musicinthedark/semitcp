@@ -1,0 +1,667 @@
+Fri Aug 20 21:09:48 CST 2010
+SIMULATION DURATION: 300.0S, AODV+TCP
+
+--- Hop Node Number:2 ---
+                     Node ID
+       0
+
+                     RTS(C) sent
+   11332
+
+
+
+                     RTS COL
+       0
+
+                     IFQ DROP
+       0
+
+                     ROUTE DROP
+       0
+
+                     ROUTE DROP When route queue full
+       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:3 ---
+                     Node ID
+       0       1       2
+
+                     RTS(C) sent
+    5747   11501    5754
+
+
+
+                     RTS COL
+      26       0      28
+
+                     IFQ DROP
+       0       0       0
+
+                     ROUTE DROP
+       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:4 ---
+                     Node ID
+       0       1       2       3
+
+                     RTS(C) sent
+    5642    7130    7142    7044
+
+
+
+                     RTS COL
+       4    1344    2859       5
+
+                     IFQ DROP
+       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0     199
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:5 ---
+                     Node ID
+       0       1       2       3       4
+
+                     RTS(C) sent
+    4441    5419    5348    6181    3019
+
+
+
+                     RTS COL
+       1    1264     576     204       1
+
+                     IFQ DROP
+       0       0       1       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      59       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       1       2
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1       2       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:6 ---
+                     Node ID
+       0       1       2       3       4       5
+
+                     RTS(C) sent
+    3465    5330    4787    6347    5815    2852
+
+
+
+                     RTS COL
+       6     729    1599     733     308       2
+
+                     IFQ DROP
+       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      55      31       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       2       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1      29       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:7 ---
+                     Node ID
+       0       1       2       3       4       5       6
+
+                     RTS(C) sent
+    2894    5314    5062    5703    6529    5439    2711
+
+
+
+                     RTS COL
+       5     475    1453    1838     678     278       8
+
+                     IFQ DROP
+       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      26      37      26       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       1       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      37      21       2       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:8 ---
+                     Node ID
+       0       1       2       3       4       5       6       7
+
+                     RTS(C) sent
+    2728    4874    5429    5688    5624    6589    5397    2570
+
+
+
+                     RTS COL
+       7     412     849    1450    1934     644     235       5
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      16      20      48      23       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       1       1       1
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      14      35      36       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:9 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8
+
+                     RTS(C) sent
+    2761    4743    4760    6047    5888    5420    6352    5176    2502
+
+
+
+                     RTS COL
+       4     437     998    1093    1253    1809     574     222       6
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      34      16      12      30      22       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       2       0       1       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1      21      14      35      32       1       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:10 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9
+
+                     RTS(C) sent
+    2573    4814    4764    5444    6262    5616    5340    6078    4868    2433
+
+
+
+                     RTS COL
+       5     348     962    1265    1050    1274    1541     418     215       3
+
+                     IFQ DROP
+       0       0       0       0       2       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      23      28      25      21      51       9       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       1       0       1       2       0       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1      20      14      13      32      22       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:11 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10
+
+                     RTS(C) sent
+    2553    4642    4811    5398    5766    6076    5510    5397    5814    4833    2414
+
+
+
+                     RTS COL
+       1     333     949    1241    1254    1037    1304    1424     458     210       1
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      22      24      29      17      23      40      11       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       1       0       1       3       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      17      20       7       7      13      21       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:12 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11
+
+                     RTS(C) sent
+    2543    4611    4619    5425    5753    5689    5732    5506    5306    5458    4730    2314
+
+
+
+                     RTS COL
+       4     365     957    1134    1203    1142    1102    1210    1242     456     181       3
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       1       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      32      34      26      22      23      34      31      14       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       1       0       0       1       1       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      18      17      15      16      15      24      15       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:13 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11
+
+                     RTS(C) sent
+    2475    4402    4505    5165    5570    5652    5462    5547    5358    5000    5199    4552
+
+
+
+                     RTS COL
+       4     326     814    1104    1145    1056    1165    1033    1055    1130     419     198
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       1       0       0       0       1       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      23      23      25      26      18      21      27      33      17       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       0       0       0       0       0       3       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      16      27      11      17      19      18      18      15       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:14 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13
+
+                     RTS(C) sent
+    2479    4387    4474    5186    5609    5621    5478    5451    5568    5308    4976    5174    4529    2298
+
+
+
+                     RTS COL
+       4     357     843    1138    1155    1105    1099    1093     980    1013    1197     384     192       3
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       1       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      31      19      20      21      17      22      22      27      20      17       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       1       0       0       0       1       1       1       0       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1      20      19      13      22      24      20      21      24      11       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:15 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14
+
+                     RTS(C) sent
+    2384    4406    4471    5079    5483    5616    5492    5497    5448    5460    5431    4988    5151    4577    2256
+
+
+
+                     RTS COL
+       3     302     817    1081    1136    1024    1124    1102    1043    1100    1051    1156     444     187       1
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      14      22      21      21      23      23      27      26      26      24      19       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       0       0       2       2       0       1       0       1       0       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      15      17       9      27      20      16      17      11      19      19       1       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:16 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15
+
+                     RTS(C) sent
+    2377    4360    4425    5097    5502    5463    5488    5487    5505    5467    5468    5371    4850    5094    4469    2264
+
+
+
+                     RTS COL
+       3     314     814    1105    1046    1068    1079    1096    1096    1110    1014     959    1162     393     219       0
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      13      25      22      24      22      25      25      29      16      16      32      20       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       0       0       0       1       2       0       0       0       0       1       1
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      25      26      20       7      14       8      10      10      18      17      12       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:17 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+
+                     RTS(C) sent
+    2293    4223    4273    4896    5293    5406    5329    5292    5401    5399    5211    5249    5246    4772    4913    4461    2249
+
+
+
+                     RTS COL
+       3     262     830    1015    1045    1019    1048    1027    1091    1044    1032    1067     964    1082     485     225       6
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       1       0       0       0       0       1       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      21      19      18      27      15      21      29      19      19      14      18      30      16       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       0       1       1       0       0       0       0       1       2       0       2       1
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      13      16       6      16      21      10      12      20      14      11      22      14       3       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:18 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17
+
+                     RTS(C) sent
+    2353    4268    4329    5020    5339    5424    5427    5511    5506    5479    5370    5495    5324    5215    4893    4936    4504    2260
+
+
+
+                     RTS COL
+       2     279     818     955    1031    1099    1043    1051    1099    1098    1150    1082     972    1035    1084     439     221       1
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       1       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      21      27      15      27      26      23      19      21      18      22      24      20      25      19       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       0       0       0       0       2       0       0       1       0       0       1       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      12      10      12      19      15      12      14      15      14      10      10      14      23       0       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:19 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17      18
+
+                     RTS(C) sent
+    2267    4096    4129    4760    5116    5080    5185    5157    5248    5360    5272    5301    5145    5134    5134    4725    4775    4359    2163
+
+
+
+                     RTS COL
+       4     271     681     966     903     975     962    1026    1061    1065    1053     967    1039     957     891    1048     412     186       2
+
+                     IFQ DROP
+       0       0       0       0       1       0       0       0       0       0       0       0       0       0       1       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       0       0       0       1       0       0       0       0       0       1       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      18      23      14      19      12      23      22      11      22      20      28      21      26      26      24       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       1       0       0       0       0       0       0       0       1       1       0       0       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       0      16      16      15      17      14      18      12      15      15      13      14      20      14      18       1       0
+
+ DROP because of ARP failure        0
+
+--- Hop Node Number:20 ---
+                     Node ID
+       0       1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16      17      18      19
+
+                     RTS(C) sent
+    2257    4123    4124    4858    5151    5143    5329    5272    5299    5223    5292    5253    5248    5201    5233    5121    4636    4822    4443    2161
+
+
+
+                     RTS COL
+       3     279     798     967     960     996    1040    1072     936    1016    1068     978    1043    1024     923     933    1050     479     194       4
+
+                     IFQ DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     ROUTE DROP When route queue full
+       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR RET
+       0       1       0       0       0       0       0       0       0       0       0       0       0       0       2       0       0       0       0       0
+
+                     TCP DROP AT MAC LAYER FOR COL
+       0      16      14      17      20      17      23      17      25      20      17      20      24      19      14      28      26       0       0       0
+
+                     TCP-ACK DROP BECAUSE OF RET
+       0       0       0       0       0       1       0       0       2       0       0       0       1       1       2       0       0       1       1       0
+
+                     TCP-ACK DROP BECAUSE OF COL
+       0       0       1      21      16      16      14      19      17      24       9      15       9      11      15      14      22      16       0       0
+
+ DROP because of ARP failure        0
